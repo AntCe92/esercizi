@@ -1,0 +1,48 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    background-color: black;  
+    opacity: 0.5;   
+}
+
+#titolo {
+    width: 500px;
+    margin: auto;
+}
+
+
+.logo{
+    width: 300px;
+}
+
+header > h2 {
+    color: lightgreen;
+}
+
+nav{
+    background-color: lightgreen;
+}
+
+main>h3{
+    display: inline-block; /*Perchè questo selettore non funziona o megliio funziona solo per il primo h3 ma non per gli altri che sono comunque figli di main  */
+    color: white;
+}
+
+main>span{
+    display: block;
+    color: white;  /*qualcosa mi sfugge come nel selettore di sopra dove mi riferisco agli h3 qui faccio riferimento agli Span figli di main ma comunque mi diventano bianchi anche i contenuti di tutti i div figli di main */
+}
+
+#carica{
+    width: 200px;
+    border: 10px;
+    background-color: tomato; /*non riesco ad inserire el barre che indicano lo stato di carica , cosi avrei creato la stessa carica per ogni monopattino e solo una prova per capire come si fa */
+}
+
+
+/* infine il div container va sistemato per essere della dimensione giusta come nel esmpio da sseguire, anche il background del nav dovrebbe essere lungo tanto quanto il container ma essendo a sua volta un altro contenitore ho trovato moltaa difficoltà*/
